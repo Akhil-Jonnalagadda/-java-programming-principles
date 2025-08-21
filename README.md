@@ -1,9 +1,47 @@
----
 title: "Essential Java Design Principles for Developers"
-shortTitle: Java Design Principles
 description: "Discover the key principles behind effective Java design patterns. This page provides clear insights into the theory and practice of Java design principles for better software development."
 language: en
 ---
+
+## How to Use This Document
+
+This document is a reference guide for essential programming principles. Use it to:
+- Quickly review key software design concepts.
+- Find practical advice and resources for deeper learning.
+- Apply principles to improve code quality, maintainability, and collaboration.
+
+Refer to the summary table below for a quick overview, and explore each section for details and resources.
+
+## Summary Table of Principles
+
+| Principle                      | Key Idea                                      |
+|-------------------------------|-----------------------------------------------|
+| KISS                          | Keep it simple, avoid unnecessary complexity  |
+| YAGNI                         | Don't build features until needed             |
+| Do The Simplest Thing         | Solve problems with the simplest solution     |
+| Separation of Concerns        | Divide code by responsibility                 |
+| DRY                           | Avoid duplication, single source of truth     |
+| Code For The Maintainer       | Write code that's easy to maintain            |
+| Avoid Premature Optimization  | Optimize only when necessary                  |
+| Minimise Coupling             | Reduce interdependence between modules        |
+| Law of Demeter                | Only interact with close collaborators        |
+| Composition Over Inheritance  | Prefer composition to inheritance             |
+| Orthogonality                 | Keep unrelated things independent             |
+| Robustness Principle          | Be strict in output, tolerant in input        |
+| Inversion of Control          | Delegate control to frameworks or patterns    |
+| Maximise Cohesion             | Group related responsibilities                |
+| Liskov Substitution Principle | Subtypes should be substitutable              |
+| Open/Closed Principle         | Open for extension, closed for modification   |
+| Single Responsibility         | One reason to change per module/class         |
+| Hide Implementation Details   | Expose only necessary interfaces              |
+| Curly's Law                   | Do one thing well                             |
+| Encapsulate What Changes      | Isolate change-prone code                     |
+| Interface Segregation         | Prefer small, client-specific interfaces      |
+| Boy-Scout Rule                | Leave code cleaner than you found it          |
+| Command Query Separation      | Separate actions from queries                 |
+| Murphy's Law                  | Anything that can go wrong will go wrong      |
+| Brooks's Law                  | Adding manpower to a late project makes it later |
+| Linus's Law                   | More eyes make bugs easier to find            |
 
 ## Introduction to Programming Principles
 
@@ -565,3 +603,10 @@ The law is originating from the book 'The Cathedral and the Bazaar' by Eric S. R
 Resources
 
 - [Linus's law in Wikipedia](https://en.wikipedia.org/wiki/Linus%27s_law)
+
+## Further Reading
+
+- "Clean Code" by Robert C. Martin
+- "The Pragmatic Programmer" by Andrew Hunt and David Thomas
+- "Design Patterns: Elements of Reusable Object-Oriented Software" by Erich Gamma et al.
+- "Refactoring: Improving the Design of Existing Code" by Martin Fowler
