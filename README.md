@@ -1,4 +1,6 @@
 title: "Essential Java Design Principles for Developers"
+
+
 description: "Discover the key principles behind effective Java design patterns. This page provides clear insights into the theory and practice of Java design principles for better software development."
 language: en
 ---
